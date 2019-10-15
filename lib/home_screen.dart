@@ -187,8 +187,37 @@ class HomeScreen extends StatelessWidget
               ),
               SizedBox
               (
-                height: 2.0,
+                height: 20.0,
               ),
+              Padding
+              (
+                padding: const EdgeInsets.only(left: 18.0),
+                child: Stack
+                (
+                  children: <Widget>
+                  [
+                    SizedBox
+                    (
+                      width: 350.0,
+                      height: 280.0,
+                    ),
+                    Container
+                    (
+                      width: 325.0,
+                      height: 280.0,
+                      decoration: BoxDecoration
+                      (
+                        borderRadius: BorderRadius.circular(8.0),
+                        image: DecorationImage
+                        (
+                          fit: BoxFit.cover,
+                          image: AssetImage('assets/pic2.jpg'),
+                        ),
+                      ),
+                    ),       
+                  ],
+                ),
+              )
             ],
           ),
         ],
