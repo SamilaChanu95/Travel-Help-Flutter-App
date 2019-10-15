@@ -16,7 +16,7 @@ class travel_app extends StatelessWidget {
         backgroundColor: Color(0xff0ABCFF),
       ),
       debugShowCheckedModeBanner: false,
-      home: new HomeScreen(),
+      home: HomeScreen(),
     );
   }
 }
